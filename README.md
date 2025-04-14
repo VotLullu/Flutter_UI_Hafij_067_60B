@@ -2,7 +2,7 @@
 
 A new Flutter project developed by:
 
-#**Hafijur Rahman Chowdhury**  
+**Hafijur Rahman Chowdhury**  
 Department of Computer Science & Engineering  
 Leading University  
 Batch-60 | Section-B  
