@@ -32,7 +32,9 @@ class _LoginScreenState extends State<LoginScreen> {
           context,
           MaterialPageRoute(builder: (context) => const SuccessPage()),
         );
-      } else {
+      } 
+      
+      else {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
@@ -47,7 +49,9 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
         );
       }
-    } catch (e) {
+    } 
+    
+    catch (e) {
       debugPrint('Login Error: $e');
       showDialog(
         context: context,
