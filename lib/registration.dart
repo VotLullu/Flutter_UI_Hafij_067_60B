@@ -32,7 +32,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           SnackBar(content: Text(data['message'])),
         );
         Navigator.pop(context);
-      } else {
+      } 
+      
+      else {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
@@ -47,7 +49,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           ),
         );
       }
-    } catch (e) {
+    } 
+    
+    catch (e) {
       debugPrint('Registration Error: $e');
       showDialog(
         context: context,
